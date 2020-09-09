@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Assistant Teaching Professor of Sociology and Demography | Program Coordinator, Graduate Studies in Applied Demography
+role: Assistant Teaching Professor of Sociology and Demography
 
 # Organizations/Affiliations
 organizations:
-- name: Department of Sociology and Criminology at The Pennsylvania State University
-  url: "https://sociology.la.psu.edu/"
+- name: Penn State
+  url: "https://psu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include mortality, fertility, social classes and social research methodology.
@@ -51,9 +51,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/n_sacco
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=Ee1HKAIAAAAJ&hl=es
 - icon: github
   icon_pack: fab
   link: https://github.com/nsacco
@@ -62,6 +62,9 @@ social:
 - icon: cv
   icon_pack: ai
   link: files/cv_sacco04_20.pdf
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/nsacco/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "nsaccozeballos@gmail.com"

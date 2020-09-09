@@ -13,7 +13,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "Rose"
+theme = "Minimal"
 
 # Enable users to switch between day and night mode?
 day_night = false
@@ -62,11 +62,11 @@ highlight_languages = ["r"]  # Add support for highlighting additional languages
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
-math = false
+math = true
 
 # Enable diagram rendering? true/false
 #   If false, you can enable diagrams on a per page basis as needed.
-diagram = false
+diagram = true
 
 # Privacy pack
 #   Show a cookie consent message to visitors
@@ -78,7 +78,7 @@ privacy_pack = false
 edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 # Show related content at the bottom of pages?
-show_related = {docs = true, page = false, post = true, project = true, publication = true, talk = true}
+show_related = {docs = false, page = false, post = false, project = false, publication = false, talk = false}
 
 ############################
 ## Contact details
@@ -91,20 +91,9 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 email = "nsacco@psu.edu"
 phone = "+1 (814) 867-0221"
 
-# Address
-# For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "505 Oswald Tower", city = "University Park", region = "PA", postcode = "16802", country = "United States", country_code = "US"}
-
-# Geographic coordinates
-# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "40.797897", longitude = "-77.864318"}
-
-# Directions for visitors to locate you.
-#directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
-
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Friday 10:30 to 16:30 and by appointment"]
+office_hours = ["Friday 10:30 AM  to 16:30 PM (Eastern Standard Time) and by appointment"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = "https://calendly.com/nsaccozeballos"
@@ -118,6 +107,18 @@ contact_links = [
 #  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
+
+# Address
+# For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
+address = {street = "505 Oswald Tower", city = "University Park", region = "PA", postcode = "16802", country = "United States", country_code = "US"}
+
+# Geographic coordinates
+# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+coordinates = {latitude = "40.797897", longitude = "-77.864318"}
+
+# Directions for visitors to locate you.
+#directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+
 
 ############################
 ## Social
@@ -265,9 +266,9 @@ plugins_js  = []
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  engine = 2
-  api_key = ""
-  zoom = 15
+  engine = 1
+  api_key = "AIzaSyCGXw3ZE1vP_7rzm7IHcBq2tyOBbCfMyJc"
+  zoom = 10
 
 ############################
 ## Marketing
@@ -287,4 +288,4 @@ plugins_js  = []
 ## Icon Pack Extensions
 ############################
 [icon.pack]
-  ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
+  ai = true  # Academicons icon pack https://jpswalsh.github.io/academicons/
