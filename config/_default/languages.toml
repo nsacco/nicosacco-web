@@ -11,12 +11,12 @@
 [es]
   languageCode = "es"
   contentDir = "content/es"
-  title = "Nicolás Sacco sitio web"
+  title = "Sitio web"
   [es.params]
-    description = "Nicolás Sacco sitio web"
+    description = "nsacco sitio web"
   [[es.menu.main]]
     name = "Inicio"
-    url = "#about"
+    url = "#inicio"
     weight = 10
   [[es.menu.main]]
     name = "Contacto"
