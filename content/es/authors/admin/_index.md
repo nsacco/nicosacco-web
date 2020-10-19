@@ -34,7 +34,7 @@ education:
   - course: Especialización en Demografía Social
     institution: Universidad Nacional de Luján
     year: 2011
-  - course: M.A. in Applied Statistics
+  - course: Magíster en Generación y Análsisi de Información Estadística
     institution: Universidad Nacional de Tres de Febrero
     year: 2009
   - course: Lic. en Sociología
