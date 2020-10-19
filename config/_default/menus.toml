@@ -15,23 +15,22 @@
     url = "files/cv_sacco04_20.pdf"
     weight = 20
 
-#[[main]]
-#  name = "Posts"
-#  url = "#posts"
-#  weight = 20
-
-#[[main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 30
-
-#[[main]]
-#  name = "Publications"
-#  url = "#featured"
-#  weight = 40
-
 [[main]]
   name = "Contact"
   url = "#contact"
   weight = 60
 
+[[es.menu.main]]
+    name = "Acerca de"
+    url = "#acercade"
+    weight = 10
+
+[[es.menu.main]]
+    name = "Contacto"
+    url = "#contacto"
+    weight = 20
+
+[[es.menu.main]]
+    name = "Docencia"
+    url = "#docencia"
+    weight = 60

@@ -11,7 +11,7 @@
 [es]
   languageCode = "es"
   contentDir = "content/es"
-  title = "Sitio web"
+  title = " "
   [es.params]
     description = "nsacco sitio web"
   [[es.menu.main]]
@@ -24,5 +24,5 @@
     weight = 60
   [[es.menu.main]]
     name = "Docencia"
-    url = "#Docencia"
+    url = "#docencia"
     weight = 60
