@@ -8,13 +8,21 @@
   contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
 # Uncomment the lines below to configure your website in a second language.
-#[es]
-#  languageCode = "es"
-#  contentDir = "content/es"
-#  title = "Nicolás Sacco sitio web"
-#  [es.params]
-#    description = "Nicolás Sacco sitio web"
-#  [[es.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[es]
+  languageCode = "es"
+  contentDir = "content/es"
+  title = "Nicolás Sacco sitio web"
+  [es.params]
+    description = "Nicolás Sacco sitio web"
+  [[es.menu.main]]
+    name = "Inicio"
+    url = "#about"
+    weight = 10
+  [[es.menu.main]]
+    name = "Contacto"
+    url = "#contacto"
+    weight = 60
+  [[es.menu.main]]
+    name = "Docencia"
+    url = "#Docencia"
+    weight = 60
